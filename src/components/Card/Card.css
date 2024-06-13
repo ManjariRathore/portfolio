@@ -1,0 +1,13 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  height:70%;
+  width: 20%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  margin: 16px;
+}
+img:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}

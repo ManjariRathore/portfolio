@@ -1,0 +1,84 @@
+.navBarContainer {
+  top: 0;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: transparent;
+  opacity: 70%;
+  
+}
+
+.nav {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  border-radius: 15px;
+  background-color: #151515;
+
+}
+
+.left {
+  width: 25%;
+  height: 100%;
+}
+
+.devName {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #fff;
+}
+
+.center {
+  width: 50%;
+  height: 100%;
+}
+
+.options {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.navEntry {
+  cursor: pointer;
+  color: #fff;
+}
+
+
+.navEntry:hover {
+  background-color: #616467;
+}
+
+.right {
+  width: 25%;
+  height: 100%;
+}
+
+.downloadResume {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.downloadBtn {
+  width: 50%;
+  height: 56%;
+  border-radius: 10px;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
