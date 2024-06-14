@@ -14,7 +14,6 @@ const Card: React.FC<CardProps> = ({ title, image, content }) => {
       <div className="card-body p-[10%]">
         <h2 className="card-title font-bold m-3">{title}</h2>
         <p className="card-content ">{content}</p>
-        <a href=''></a>
       </div>
     </div>
   );

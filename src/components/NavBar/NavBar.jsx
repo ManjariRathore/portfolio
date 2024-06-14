@@ -3,7 +3,7 @@ function NavBar({ name }) {
 
   return (
     <div className="navBarContainer">
-      <div className="nav">
+      <div className="nav bg-gradient-to-b from-gray-800 to-black mt-10 z-50">
         <div className="left">
           <a href="#Home" className="devName">
             Manjari Rathore

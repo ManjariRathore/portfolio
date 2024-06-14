@@ -9,8 +9,8 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="App"> 
-        <NavBar name="Manjari" />
+    <div className="App bg-gradient-to-b from-white to-emerald-100"> 
+        <NavBar name="Manjari"  />
         <Home />
         <About/>
         <Projects/>

@@ -10,7 +10,7 @@ import { ImBooks } from "react-icons/im";
   const About = () => {
     return (
         <div className="aboutContainer flex flex-col" id="About">
-            <h5 className='font-semibold text-5xl mt-24'>About</h5>
+            <h5 className='font-semibold text-5xl mt-36'>About</h5>
             <div className="aboutContainer flex flex-col items-center">
             <div className=" flex flex-col items-center w-1/2 ">
                 <p className=' text-lg  font-sans font-medium text-left mb-8'> 
@@ -19,7 +19,7 @@ import { ImBooks } from "react-icons/im";
                 </p>
             </div>
             <div className="interestContainer flex flex-col items-center">
-                <h5 className='text-5xl mb-6'>Interests</h5>
+                <h5 className='text-5xl mb-10'>Interests</h5>
                 <div className='interests-container grid grid-cols-2 gap-5 '>
                     <Tile skill='Development' icon={<CiGlobe size={45}/>} />
                     <Tile skill=' Machine Learning ' icon={<FaDatabase size={45} />}/>

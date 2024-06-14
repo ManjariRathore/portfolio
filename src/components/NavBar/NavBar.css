@@ -9,16 +9,15 @@
   position: sticky;
   background-color: transparent;
   opacity: 70%;
+  /* z-index: 10000000px; */
   
 }
 
 .nav {
   width: 90%;
-  height: 70%;
+  height: 90%;
   display: flex;
   border-radius: 15px;
-  background-color: #151515;
-
 }
 
 .left {
