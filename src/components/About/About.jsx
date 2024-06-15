@@ -18,7 +18,7 @@ import { ImBooks } from "react-icons/im";
                 Outside coding, I also like reading and traveling.
                 </p>
             </div>
-            <div className="interestContainer flex flex-col items-center">
+            <div className="interestContainer flex flex-col  items-center">
                 <h5 className='text-5xl mb-10'>Interests</h5>
                 <div className='interests-container grid grid-cols-2 gap-5 '>
                     <Tile skill='Development' icon={<CiGlobe size={45}/>} />
